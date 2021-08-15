@@ -11,7 +11,7 @@ import lombok.ToString;
 @Setter
 @ToString
 
-@Document
+@Document(value="employees")
 public class Employees {
 	
 	public String name;
